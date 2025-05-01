@@ -120,15 +120,15 @@ raw_data:
 
 generation:
   generate_all: false
-  test_filepath:
+  test_filepath: moses_and_aron.json
   use_velocity: false
   use_phrase_selection: true
-  structure: ABBAA
-  phrases_per_section: [5, 2, 5, 5, 3]
+  structure: AAAAAAAA
+  phrases_per_section: [1, 1, 1, 1, 1, 1, 1, 1]
   transformations: [] # "contract_melody", "retrograde_melody_pitch_rhythm", "reduce_melody", "invert_melody_tonal", "expand_melody"
   allow_modulation: false
   ratio:
     phrase_generation_frequency: 2
     phrase_refinement_frequency: 1
     motif_repetition_frequency: 50
-  write_midi: false # Change to false to write to mxl
+  write_midi: true # Change to false to write to mxl
