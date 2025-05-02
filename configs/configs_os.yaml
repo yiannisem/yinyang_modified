@@ -125,7 +125,7 @@ generation:
   use_phrase_selection: true
   structure: A
   phrases_per_section: [8]
-  transformations: ["contract_melody", "retrograde_melody_pitch_rhythm", "reduce_melody", "invert_melody_tonal", "expand_melody"]
+  transformations: ["retrograde_melody_pitch_rhythm", "reduce_melody", "invert_melody_tonal"] #  "contract_melody", "expand_melody"
   allow_modulation: false
   ratio:
     phrase_generation_frequency: 0
