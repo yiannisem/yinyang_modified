@@ -124,7 +124,7 @@ generation:
   use_velocity: false
   use_phrase_selection: true
   structure: A
-  phrases_per_section: [1, 1, 1, 1, 1, 1, 1, 1]
+  phrases_per_section: [8]
   transformations: ["contract_melody", "retrograde_melody_pitch_rhythm", "reduce_melody", "invert_melody_tonal", "expand_melody"]
   allow_modulation: false
   ratio:
