@@ -123,12 +123,12 @@ generation:
   test_filepath:
   use_velocity: false
   use_phrase_selection: true
-  structure: AAAAAAAA
+  structure: A
   phrases_per_section: [1, 1, 1, 1, 1, 1, 1, 1]
   transformations: ["contract_melody", "retrograde_melody_pitch_rhythm", "reduce_melody", "invert_melody_tonal", "expand_melody"]
   allow_modulation: false
   ratio:
     phrase_generation_frequency: 0
-    phrase_refinement_frequency: 1
+    phrase_refinement_frequency: 5
     motif_repetition_frequency: 100 # never output the raw seed
   write_midi: true # Change to false to write to mxl
